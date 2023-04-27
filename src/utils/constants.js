@@ -23,11 +23,11 @@ export const navLinks = [
     link: "projects",
   },
 
-  {
-    id: 5,
-    title: "Resume",
-    link: "resume",
-  },
+  // {
+  //   id: 5,
+  //   title: "Resume",
+  //   link: "resume",
+  // },
 
   {
     id: 6,

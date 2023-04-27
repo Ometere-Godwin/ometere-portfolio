@@ -5,7 +5,7 @@ import Features from "./components/features/Features";
 import Home from "./components/home/Home";
 import Navbar from "./components/Navbar";
 import Project from "./components/projects/Project";
-import Resume from "./components/resume/Resume";
+//import Resume from "./components/resume/Resume";
 // import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 // const Layout = () => {
@@ -37,7 +37,7 @@ function App() {
         <Features />
         <About />
         <Project />
-        <Resume />
+        {/* <Resume /> */}
         <Contact />
         {/* <RouterProvider router={router} /> */}
       </div>
