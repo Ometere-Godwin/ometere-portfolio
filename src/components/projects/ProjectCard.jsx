@@ -5,7 +5,7 @@ import { SiNetlify } from "react-icons/si";
 export default function ProjectCard({ title, description, img }) {
   return (
     <div
-      className="w-full px-12 h-auto py-8 round-lg flex flex-col shadow-black 
+      className="w-full p-4 xl:px-12 h-auto xl:py-8 round-lg flex flex-col shadow-black 
       bg-gradient-to-r from-[#212428] to-[#202327] 
       group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000 "
     >

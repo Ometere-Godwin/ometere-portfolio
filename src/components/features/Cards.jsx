@@ -25,7 +25,9 @@ export default function ({ title, description, icon }) {
             )}
           </div>
           <div className="flex flex-col gap-6">
-            <h2 className="text-2xl text-gray-300 font-bold">{title}</h2>
+            <h2 className="text-xl md:text-2xl text-gray-300 font-bold">
+              {title}
+            </h2>
             <p className="base text-justify">{description}</p>
             <span className="text-2xl text-[#ff014f]">
               <HiArrowRight />

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="w-full pb-20 flex items-center border-b-[1px] border-b-black"
+      className="w-full pt-10 pb-20 flex flex-col gap-10 items-center border-b-[1px] border-b-black lgl:flex-row xl:gap-0"
     >
       <LeftHomeSide />
       <RightHomeSide />

@@ -10,7 +10,7 @@ export default function Features() {
     >
       <Title title="Features" description="What I do" />
       <div>
-        <div className="grid grid-cols-3 gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-6 gap-20">
           <Cards
             title="Business Strategy"
             description="Lorem ipsum dolor sit amet 

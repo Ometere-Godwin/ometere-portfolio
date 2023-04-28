@@ -12,16 +12,16 @@ export default function LeftHomeSide() {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h1 className="text-lg font-normal ">WELCOME TO MY WORLD</h1>
-        <h1 className="text-4xl font-wwhite font-bold">
+        <h1 className="text-3xl font-wwhite font-bold mdl:text-2xl">
           Hi, I'm{" "}
           <span className="text-[#ff014f] capitalize">
             Ometere Oghene-Godwin
           </span>
         </h1>
-        <h2 className="text-4xl font-bold">
+        <h2 className="text-3xl font-bold">
           a <span>{text}</span>
         </h2>
         <p className="text-base font-normal leading-6 tracking-wide">
@@ -31,7 +31,7 @@ export default function LeftHomeSide() {
           Eveniet ut nihil quas?
         </p>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col xl:flex-row gap-6 lgl:gap-0">
         <div>
           <h2 className="mb-4 uppercase font-semibold">Find me in</h2>
           <div className="flex gap-4">

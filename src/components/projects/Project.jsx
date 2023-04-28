@@ -11,7 +11,7 @@ export default function Project() {
       <div className="flex justify-center items-center text-center">
         <Title title="visit my projects and be wowed" description="projects" />
       </div>
-      <div className="grid grid-cols-3  gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-20">
         <ProjectCard
           title="Youtube Clone"
           description="This handy tool helps 
