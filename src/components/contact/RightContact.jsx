@@ -39,7 +39,7 @@ export default function RightContact() {
   };
   return (
     <div>
-      <form className="w-full flex flex-col gap-6 py-3">
+      <form className="w-full flex flex-col gap-2 lgl:gap-4 py-2 lgl:py-5">
         {/* Error Message */}
         {errMsg && (
           <p
@@ -60,8 +60,8 @@ export default function RightContact() {
         )}
 
         {/* Username */}
-        <div className="flex gap-10 w-full">
-          <div className="w-1/2 flex flex-col gap-4">
+        <div className="flex gap-10 w-full flex-col lgl:flex-row ">
+          <div className="w-full lgl:w-1/2 flex flex-col gap-4">
             <label className="uppercase text-gray-400 tracking-wide text-sm">
               your name
             </label>
@@ -75,7 +75,7 @@ export default function RightContact() {
             />
           </div>
 
-          <div className="w-1/2 flex flex-col gap-4">
+          <div className="w-full lgl:w-1/2 flex flex-col gap-4">
             {/* Phone Number */}
             <label className="uppercase text-gray-400 tracking-wide text-sm">
               phone number

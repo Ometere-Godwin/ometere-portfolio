@@ -6,7 +6,7 @@ export default function Title({ title, description }) {
       <h3 className="text-sm uppercase font-light text-[#ff014f] tracking-wider">
         {title}
       </h3>
-      <h1 className="text-5xl text-gray-300 font-bold capitalize">
+      <h1 className=" text-4xl lgl:text-5xl text-gray-300 font-bold capitalize">
         {description}
       </h1>
     </div>

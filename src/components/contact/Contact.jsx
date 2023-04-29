@@ -15,9 +15,13 @@ export default function Contact() {
         <Title title="Contact" description="Contact with me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
-          <div className="w-[60%] h-full flex flex-col p-10 gap-8 rounded-1g shadow-black bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+          <div
+            className="w-full lgl:w-[60%] h-full 
+          flex flex-col py-10 gap-8 p-4 lgl:p-8 rounded-1g drop-shadow-black 
+          bg-gradient-to-r from-[#1e2024] to-[#23272b]"
+          >
             <RightContact />
           </div>
         </div>

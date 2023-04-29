@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function ContactLeft() {
   return (
     <div
-      className="w-[35%] h-full bg-gradient-to-r from-[#1e2024]
-          to-[#23272b] p-8 rounded-lg flex flex-col gap-4 justify-center mb-4"
+      className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024]
+          to-[#23272b] p-4 lgl:p-8 rounded-lg flex flex-col gap-8 justify-center mb-4"
     >
       <img
         className="w-full h-64 object-cover rounded-lg"
