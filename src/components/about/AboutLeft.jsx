@@ -14,50 +14,50 @@ export default function AboutLeft() {
       <div>
         <p className="text-2xl mb-3">
           Here are a few{" "}
-          <span className="text-[#ff014f]">Languges and Tools </span> I have
+          <span className="text-[#ff014f]">Languages and Tools </span> I have
           been working with recently
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-6 gap-10  items-center mt-3">
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex ">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-6 gap-10  items-center mt-3 ">
+          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex rounded-lg">
             <FaGithub />
           </span>
           <span
             className=" bg-black w-[100px] 
           h-[100px] text-[80px] items-center 
-          justify-center flex "
+          justify-center flex rounded-lg "
           >
             <IoLogoJavascript />
           </span>
 
           <span
             className=" bg-black w-[100px] h-[100px] text-[80px] 
-          items-center justify-center flex 
+          items-center justify-center flex rounded-lg
           "
           >
             <SiTailwindcss />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className=" rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <FaReact />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className=" rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <FaFigma />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className="rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <SiVercel />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className="rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <DiNodejs />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className="rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <TbBrandVscode />
           </span>
 
-          <span className=" bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
+          <span className="rounded-lg bg-black w-[100px] h-[100px] text-[80px] items-center justify-center flex tex">
             <SiNetlify />
           </span>
         </div>

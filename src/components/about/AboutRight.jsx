@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
 
 export default function AboutRight() {
   return (
@@ -8,7 +7,7 @@ export default function AboutRight() {
       flex flex-col py-10 gap-10 p-4 lgl:p-8 rounded-1g drop-shadow-black 
       bg-gradient-to-r from-[#1e2024] to-[#23272b] "
     >
-      <div className="w-full flex flex-col gap-4 lgl:gap-4 py-2 lgl:py-5 text-justify text-xl">
+      <div className="w-full flex flex-col gap-4 lgl:gap-4 py-2 lgl:py-5 text-justify ">
         <p>
           Hi, I am Ometere Oghene-Godwin. I am a software developer focused on
           building websites and web apps that help businesses solve user
