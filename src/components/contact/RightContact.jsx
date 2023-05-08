@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 export default function RightContact() {
   const [username, setUsername] = useState("");
@@ -10,11 +10,36 @@ export default function RightContact() {
   const [subject, setSubject] = useState("");
 
   const handleSend = (event) => {
-    const emailValidation = () => {
-      return String(email)
-        .toLocaleLowerCase()
-        .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
-    };
+    // const emailValidation = () => {
+    //   return String(email)
+    //     .toLocaleLowerCase()
+    //     .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
+    // };
+
+    // const form = useRef();
+
+    // const emailContent = {
+    //   username: username,
+    //   email: email,
+    //   subject: subject,
+    //   message: message,
+    // };
+
+    // emailjs
+    //   .sendForm(
+    //     "service_1iz1azk",
+    //     "template_w02337i",
+    //     emailContent,
+    //     "inCPEd5cum8TPufrM"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
 
     event.preventDefault();
     if (username === "") {
@@ -136,6 +161,7 @@ export default function RightContact() {
         </div>
         <div className="w-full">
           <button
+            disabled={username.length === 0 || phoneNumber.length === 0}
             onClick={handleSend}
             className="w-full h-12 bg-[#141518] rounded-lg text-base
           text-gray-400 tracking-wide uppercase hover:text-white duration-300

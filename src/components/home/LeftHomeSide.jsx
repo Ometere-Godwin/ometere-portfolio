@@ -1,5 +1,5 @@
 import React from "react";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 import { FaLinkedin, FaGithub, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiReact } from "react-icons/si";
 
@@ -15,7 +15,7 @@ export default function LeftHomeSide() {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h1 className="text-lg font-normal ">WELCOME TO MY WORLD</h1>
-        <h1 className="text-3xl font-wwhite font-bold mdl:text-2xl">
+        <h1 className="lgl:text-3xl text-5xl text-white font-bold mdl:text-2xl">
           Hi, I'm{" "}
           <span className="text-[#ff014f] capitalize">
             Ometere Oghene-Godwin
@@ -31,6 +31,7 @@ export default function LeftHomeSide() {
           Eveniet ut nihil quas?
         </p>
       </div>
+
       <div className="flex justify-between flex-col xl:flex-row gap-6 lgl:gap-0">
         <div>
           <h2 className="mb-4 uppercase font-semibold">Find me in</h2>
@@ -62,6 +63,19 @@ export default function LeftHomeSide() {
           </div>
         </div>
       </div>
+
+      <button
+        className="rounded-xl bannerIcon p-[10px] text-gray-400 text-2xl 
+      font-normal leading-6 cursor-pointer w-1/2 uppercase"
+      >
+        <a
+          href="https://drive.google.com/file/d/1Jx39aVEtos5QUj1lZWFKxXvHf5lMyT3j/view?usp=share_link"
+          target="_blank"
+          rel="noopenner noreferrer"
+        >
+          Resume
+        </a>
+      </button>
     </div>
   );
 }

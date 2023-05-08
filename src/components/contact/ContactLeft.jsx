@@ -16,9 +16,19 @@ export default function ContactLeft() {
         <h3 className="text-3xl font-bold text-white">Ometere Godwin</h3>
         <p className="text-lg font-normal text-gray-400">Front End Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          corrupti ratione mollitia, architecto quae assumenda,
+          I am seeking out opportunities to collaborate with companies,
+          agencies, individuals. I don't just want to work for them but to bring
+          my collective design experience to the table where we can work
+          together to solve real business problems in a way that optimizes all
+          our respective experience and knowledge.
         </p>
+        <p>
+          {" "}
+          If that sounds about right, then we can work together for sure chat
+          about how we can work together. Feel free to reach out through any
+          platform listed here.
+        </p>
+
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone Number:
           <span className="text-[#c4cfde]">+234 8061372599</span>

@@ -12,11 +12,12 @@ export default function Features() {
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-6 gap-20">
           <Cards
-            title="Business Strategy"
-            description="Lorem ipsum dolor sit amet 
-          This handy tool helps you create dummy text for all 
-          your layout needs. We are gradually adding new 
-          functionality and we welcome your suggestions and feedback"
+            title="RESEARCH"
+            description="I ensure I understand the client’s subject 
+            matter completely and build on the knowledge 
+            related to it, becoming intimately familiar with 
+            the subject matter. Determine methods to address 
+            the specific customer’s needs and requirements."
           />
           <Cards
             title="Business Strategy"
