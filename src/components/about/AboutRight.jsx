@@ -31,7 +31,18 @@ export default function AboutRight() {
           service every step of the way.
         </p>
       </div>
-      <button className="bg-blue-400">Resume</button>
+      <button
+        className="rounded-xl bannerIcon p-[10px] text-gray-400 text-2xl 
+      font-normal leading-6 cursor-pointer w-1/2 uppercase"
+      >
+        <a
+          href="https://drive.google.com/file/d/1Jx39aVEtos5QUj1lZWFKxXvHf5lMyT3j/view?usp=share_link"
+          target="_blank"
+          rel="noopenner noreferrer"
+        >
+          Resume
+        </a>
+      </button>
     </div>
   );
 }

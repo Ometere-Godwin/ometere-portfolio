@@ -1,8 +1,14 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import { SiNetlify } from "react-icons/si";
+import { SiNetlify, SiVercel } from "react-icons/si";
 
-export default function ProjectCard({ title, description, img }) {
+export default function ProjectCard({
+  title,
+  description,
+  img,
+  github,
+  vercel,
+}) {
   return (
     <div
       className="w-full p-4 xl:px-12 h-auto xl:py-8 round-lg flex flex-col shadow-black 
@@ -23,13 +29,17 @@ export default function ProjectCard({ title, description, img }) {
                 className="text-lg w-10 h-10 rounded-full bg-black flex
               justify-center items-center text-gray-400 hover:text-[#ff014f] cursor-pointer"
               >
-                <BsGithub />
+                <a href={github} target="_blank" rel="noopenner noreferrer">
+                  <BsGithub />
+                </a>
               </span>
               <span
                 className="text-lg w-10 h-10 rounded-full bg-black flex
               justify-center items-center text-gray-400 hover:text-[#ff014f] cursor-pointer"
               >
-                <SiNetlify />
+                <a href={vercel} target="_blank" rel="noopenner noreferrer">
+                  <SiVercel />
+                </a>
               </span>
             </div>
           </div>

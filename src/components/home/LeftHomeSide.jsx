@@ -25,10 +25,10 @@ export default function LeftHomeSide() {
           a <span>{text}</span>
         </h2>
         <p className="text-base font-normal leading-6 tracking-wide">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolores a
-          soluta a a a a minima consequatur obcaecati voluptatibus itaque
-          accusantium eveniet dicta libero beatae maiores totam at, rerum alias?
-          Eveniet ut nihil quas?
+          I'am Front-end developer who cares deeply about user experience. I
+          have strong passion on building beautiful and responsive web
+          applications. My tech stack includes React, TailwindCSS, Nodejs and
+          Styled-component, and I'm always eager to learn and expand my skills.
         </p>
       </div>
 
@@ -37,10 +37,22 @@ export default function LeftHomeSide() {
           <h2 className="mb-4 uppercase font-semibold">Find me in</h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaGithub />
+              <a
+                href="https://github.com/Ometere-Godwin"
+                target="_blank"
+                rel="noopenner noreferrer"
+              >
+                <FaGithub />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedin />
+              <a
+                href="https://www.linkedin.com/in/ometere-godwin-oghene-4b75b391/"
+                target="_blank"
+                rel="noopenner noreferrer"
+              >
+                <FaLinkedin />
+              </a>
             </span>
           </div>
         </div>
