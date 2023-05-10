@@ -1,7 +1,8 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
-import RightContact from "./RightContact";
+//import RightContact from "./RightContact";
+import TemporaryContact from "./TemporaryContact";
 
 export default function Contact() {
   return (
@@ -22,7 +23,8 @@ export default function Contact() {
           flex flex-col py-10 gap-8 p-4 lgl:p-8 rounded-1g drop-shadow-black 
           bg-gradient-to-r from-[#1e2024] to-[#23272b]"
           >
-            <RightContact />
+            {/* <RightContact /> */}
+            <TemporaryContact />
           </div>
         </div>
       </div>

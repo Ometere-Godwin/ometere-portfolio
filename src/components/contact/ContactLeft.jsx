@@ -38,30 +38,6 @@ export default function ContactLeft() {
           <span className="text-[#c4cfde]">ookuoluse@gmail.com</span>
         </p>
       </div>
-      <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-normal">Find me in</h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon w-8 h-8 ">
-            <a
-              href="https://www.linkedin.com/in/ometere-godwin-oghene-4b75b391/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin className="w-5 h-5" />
-            </a>
-          </span>
-
-          <span className="bannerIcon w-8 h-8 ">
-            <a
-              href="https://github.com/Ometere-Godwin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="w-5 h-5" />
-            </a>
-          </span>
-        </div>
-      </div>
     </div>
   );
 }

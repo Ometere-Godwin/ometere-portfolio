@@ -14,8 +14,9 @@ export default function Project() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-20">
         <ProjectCard
           title="Youtube Clone"
-          description="This project is designed using the modern technologies.
-          It is a music library that contains alot of  artists
+          description="This project is designed using the modern technologies. 
+          It is a music library that contains alot of artists. You can search for videos of your choice.
+          And beside the playing video, there are list of related videos.
           I used RapidApi to enable me fetch data."
           img="assets/music.png"
           github="https://github.com/Ometere-Godwin/youtube_clone"
@@ -23,11 +24,8 @@ export default function Project() {
         />
         <ProjectCard
           title="ProconnectPay"
-          description="This handy tool helps 
-          you create dummy text for all your 
-          layout needs. We are gradually 
-          adding new functionality and we 
-          welcome your suggestions and feedback"
+          description="This just a an educational site that was built with Reactjs. It is mobile responsive.
+          "
           img="assets/black lady.png"
           github="https://github.com/Ometere-Godwin/proconnectwebappcloned"
           vercel="proconnectwebappcloned-91a96qx1l-ometere-godwin.vercel.app"
