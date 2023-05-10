@@ -14,10 +14,10 @@ export default function About() {
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-          <AboutLeft />
           <div>
             <AboutRight />
           </div>
+          <AboutLeft />
         </div>
       </div>
     </section>
