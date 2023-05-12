@@ -15,7 +15,7 @@ export default function LeftHomeSide() {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h1 className="text-lg font-normal ">WELCOME TO MY WORLD</h1>
-        <h1 className="text-3xl lgl:text-5xl text-white font-bold mdl:text-2xl">
+        <h1 className="text-3xl lgl:text-4xl text-white font-bold mdl:text-2xl">
           Hi, I'm{" "}
           <span className="text-[#ff014f] capitalize">
             Ometere Oghene-Godwin
