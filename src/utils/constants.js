@@ -17,11 +17,11 @@ export const navLinks = [
   //   link: "resume",
   // },
 
-  // {
-  //   id: 3,
-  //   title: "Features",
-  //   link: "features",
-  // },
+  {
+    id: 5,
+    title: "Features",
+    link: "features",
+  },
 
   {
     id: 3,

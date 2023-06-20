@@ -1,8 +1,7 @@
-import React from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
-//import RightContact from "./RightContact";
-import TemporaryContact from "./TemporaryContact";
+import RightContact from "./RightContact";
+//import TemporaryContact from "./TemporaryContact";
 
 export default function Contact() {
   return (
@@ -16,15 +15,15 @@ export default function Contact() {
         <Title title="Contact" description="Contact with me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between ">
           <ContactLeft />
           <div
-            className="w-full lgl:w-[60%] h-full 
+            className="w-full lgl:w-[60%] h-[820px] 
           flex flex-col py-10 gap-8 p-4 lgl:p-8 rounded-1g drop-shadow-black 
           bg-gradient-to-r from-[#1e2024] to-[#23272b]"
           >
-            {/* <RightContact /> */}
-            <TemporaryContact />
+            <RightContact />
+            {/* <TemporaryContact /> */}
           </div>
         </div>
       </div>

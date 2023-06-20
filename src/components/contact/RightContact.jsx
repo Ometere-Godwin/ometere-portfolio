@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import { useState } from "react";
+import axios from "axios";
 
 export default function RightContact() {
   const [username, setUsername] = useState("");
@@ -9,38 +10,7 @@ export default function RightContact() {
   const [success, setSuccessMsg] = useState("");
   const [subject, setSubject] = useState("");
 
-  const handleSend = (event) => {
-    // const emailValidation = () => {
-    //   return String(email)
-    //     .toLocaleLowerCase()
-    //     .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
-    // };
-
-    // const form = useRef();
-
-    // const emailContent = {
-    //   username: username,
-    //   email: email,
-    //   subject: subject,
-    //   message: message,
-    // };
-
-    // emailjs
-    //   .sendForm(
-    //     "service_1iz1azk",
-    //     "template_w02337i",
-    //     emailContent,
-    //     "inCPEd5cum8TPufrM"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-
+  const handleSend = async (event) => {
     event.preventDefault();
     if (username === "") {
       setErrMsg("Username is required");
@@ -61,7 +31,23 @@ export default function RightContact() {
       setSubject("");
       setMessage("");
     }
+
+    try {
+      const response = await axios.post("https://formspree.io/f/xpzevblq", {
+        username,
+        email,
+        phoneNumber,
+        message,
+      });
+
+      console.log(response);
+      // Optionally, you can show a success message or redirect the user after successful submission.
+    } catch (error) {
+      console.error(error);
+      // Handle the error case, such as showing an error message to the user.
+    }
   };
+
   return (
     <div>
       <form className="w-full flex flex-col gap-2 lgl:gap-4 py-2 lgl:py-5">
@@ -83,9 +69,9 @@ export default function RightContact() {
             {success}
           </p>
         )}
-
-        {/* Username */}
+        {/* Input Container */}
         <div className="flex gap-10 w-full flex-col lgl:flex-row ">
+          {/* Username */}
           <div className="w-full lgl:w-1/2 flex flex-col gap-4">
             <label className="uppercase text-gray-400 tracking-wide text-sm">
               your name
@@ -95,6 +81,7 @@ export default function RightContact() {
                 errMsg === "Username is required" && "outline-red-400"
               } contactInput`}
               type="text"
+              name="name"
               onChange={(e) => setUsername(e.target.value)}
               value={username}
             />
@@ -124,6 +111,7 @@ export default function RightContact() {
               errMsg === "Email is required" && "outline-red-400"
             } contactInput`}
             type="email"
+            name="email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
@@ -139,6 +127,7 @@ export default function RightContact() {
               errMsg === "Please, give your subject" && "outline-red-400"
             } contactInput`}
             type="text"
+            name="message"
             onChange={(e) => setSubject(e.target.value)}
             value={subject}
           />

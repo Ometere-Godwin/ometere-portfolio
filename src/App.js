@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
-//import Features from "./components/features/Features";
+import Features from "./components/features/Features";
 import Home from "./components/home/Home";
 import Navbar from "./components/Navbar";
 import Project from "./components/projects/Project";
@@ -36,7 +36,7 @@ function App() {
         <Home />
         <About />
         {/* <Resume /> */}
-        {/* <Features /> */}
+        <Features />
         <Project />
 
         <Contact />
