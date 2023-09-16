@@ -38,6 +38,16 @@ export default function Project() {
           github="https://github.com/Ometere-Godwin/hair_studio"
           vercel=""
         />
+
+        <ProjectCard
+          title="Car Hub"
+          description="This is car hub app that showcases different types of car, the year they were produced, the manufacture
+           I used technologies like the headlessui, RapidApI, NextJs,
+          TailwindCSS, Typescript. It just showcases how to consume API"
+          img="assets/car.jpg"
+          github="https://github.com/Ometere-Godwin/nextjs_carhub_showcaseTere"
+          vercel="https://nextjs-carhub-showcase-tere-8tiq.vercel.app/"
+        />
         {/* <ProjectCard
           title="Youtube Clone"
           description="This handy tool helps 

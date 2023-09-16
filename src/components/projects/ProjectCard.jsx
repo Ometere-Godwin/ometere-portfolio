@@ -17,7 +17,7 @@ export default function ProjectCard({
     >
       <div className="w-full h-[80%] rounded-lg">
         <img
-          className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
+          className="w-full h-60 object-contain group-hover:scale-110 duration-300 cursor-pointer"
           src={img}
           alt=""
         />
@@ -41,6 +41,7 @@ export default function ProjectCard({
                   <SiVercel />
                 </a>
               </span>
+              
             </div>
           </div>
           <div>
