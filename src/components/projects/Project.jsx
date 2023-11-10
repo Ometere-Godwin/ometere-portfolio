@@ -51,7 +51,7 @@ export default function Project() {
           title="A Modern Website"
           description="This is modern website built with some modern technologies. It show cases how to use a React Library called clsx
           I also used technologies like Tailwing CSS, ReactJs, React Icons, Framer Motion."
-          img="assets/modernwensite.PNG"
+          img="assets/modernwebsite.PNG"
           github="https://github.com/Ometere-Godwin/modernwebsite"
           vercel="https://vercel.com/ometere-godwin/modernwebsite"
         />
