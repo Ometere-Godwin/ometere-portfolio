@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaReact, FaSass, FaFigma, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTailwindcss, SiVercel, SiNetlify } from "react-icons/si";
+import { SiTailwindcss, SiVercel, SiNetlify, SiTypescript } from "react-icons/si";
 import { TbBrandVscode, TbBrandNextjs } from "react-icons/tb";
 
 export default function AboutLeft() {
@@ -50,6 +50,10 @@ export default function AboutLeft() {
 
           <span className=" bg-black lgl:w-[100px] lgl:h-[100px] w-[50px] h-[50px] lgl:text-[80px] text-[30px] items-center justify-center flex rounded-lg">
             <SiNetlify />
+          </span>
+
+          <span className=" bg-black lgl:w-[100px] lgl:h-[100px] w-[50px] h-[50px] lgl:text-[80px] text-[30px] items-center justify-center flex rounded-lg">
+            <SiTypescript />
           </span>
         </div>
       </div>
