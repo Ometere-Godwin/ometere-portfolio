@@ -23,12 +23,11 @@ export default function Project() {
           vercel="youtube-clone-mko0qwbeo-ometere-godwin.vercel.app"
         />
         <ProjectCard
-          title="ProconnectPay"
-          description="This just a an educational site that was built with Reactjs. It is mobile responsive.
-          "
-          img="assets/black lady.png"
-          github="https://github.com/Ometere-Godwin/proconnectwebappcloned"
-          vercel="proconnectwebappcloned-91a96qx1l-ometere-godwin.vercel.app"
+          title="Shopping Mart"
+          description="This is an ecommerce site thta was built on technologies like Framer Motion, Nextjs Tailwind CSS, TypeSript"
+          img="assets/ecommerce.PNG"
+          github="https://github.com/Ometere-Godwin/tere.shoppingmart"
+          vercel="https://tere-shoppingmart-7ir6.vercel.app/"
         />
         <ProjectCard
           title="Hair Studio"

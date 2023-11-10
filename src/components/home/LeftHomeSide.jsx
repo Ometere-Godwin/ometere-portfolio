@@ -27,7 +27,7 @@ export default function LeftHomeSide() {
         <p className="text-base font-normal leading-6 tracking-wide">
           I'am Front-end developer who cares deeply about user experience. I
           have strong passion on building beautiful and responsive web
-          applications. My tech stack includes React, TailwindCSS, Nodejs and
+          applications. My tech stack includes React, TailwindCSS, TypeScript, Nextjs, JavaScript and
           Styled-component, and I'm always eager to learn and expand my skills.
         </p>
       </div>

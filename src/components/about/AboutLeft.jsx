@@ -2,8 +2,7 @@ import React from "react";
 import { FaGithub, FaReact, FaSass, FaFigma, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTailwindcss, SiVercel, SiNetlify } from "react-icons/si";
-import { DiNodejs } from "react-icons/di";
-import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandVscode, TbBrandNextjs } from "react-icons/tb";
 
 export default function AboutLeft() {
   return (
@@ -42,7 +41,7 @@ export default function AboutLeft() {
           </span>
 
           <span className=" bg-black lgl:w-[100px] lgl:h-[100px] w-[50px] h-[50px] lgl:text-[80px] text-[30px] items-center justify-center flex rounded-lg">
-            <DiNodejs />
+            <TbBrandNextjs />
           </span>
 
           <span className=" bg-black lgl:w-[100px] lgl:h-[100px] w-[50px] h-[50px] lgl:text-[80px] text-[30px] items-center justify-center flex rounded-lg">
