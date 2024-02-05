@@ -12,7 +12,7 @@ export default function Contact() {
       border-b-black "
     >
       <div className="flex justify-center items-center">
-        <Title title="Contact" description="Contact with me" />
+        <Title title="Contact" description="Contact me" />
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between ">

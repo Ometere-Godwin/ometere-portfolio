@@ -20,22 +20,22 @@ export default function Project() {
           I used RapidApi to enable me fetch data."
           img="assets/music.png"
           github="https://github.com/Ometere-Godwin/youtube_clone"
-          vercel="youtube-clone-mko0qwbeo-ometere-godwin.vercel.app"
+          vercel="https://youtube-clone-black-tau.vercel.app/"
         />
         <ProjectCard
           title="Shopping Mart"
-          description="This is an ecommerce site thta was built on technologies like Framer Motion, Nextjs Tailwind CSS, TypeSript"
+          description="This is an ecommerce site that was built with technologies like Framer Motion, Nextjs Tailwind CSS, TypeSript"
           img="assets/ecommerce.PNG"
           github="https://github.com/Ometere-Godwin/tere.shoppingmart"
           vercel="https://tere-shoppingmart-7ir6.vercel.app/"
         />
         <ProjectCard
           title="Hair Studio"
-          description="This is just a simple hair studio  project.
-          I developed this prroject with HTML, CSS and JavaScript"
-          img="assets/barber.jpg"
-          github="https://github.com/Ometere-Godwin/hair_studio"
-          vercel=""
+          description="This is an E-commerce site where you can shop for digital items easily. The technologies used are TypeScript
+          TailwindCSS, Shadcn/ui, CMS"
+          img="assets/digitalHippo.png"
+          github="https://github.com/Ometere-Godwin/digitalhippo"
+          vercel="https://digitalhippo-five.vercel.app/"
         />
 
         <ProjectCard

@@ -1,7 +1,12 @@
 import React from "react";
-import { FaGithub, FaReact, FaSass, FaFigma, FaNodeJs } from "react-icons/fa";
+import { FaGithub, FaReact, FaFigma } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTailwindcss, SiVercel, SiNetlify, SiTypescript } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiVercel,
+  SiNetlify,
+  SiTypescript,
+} from "react-icons/si";
 import { TbBrandVscode, TbBrandNextjs } from "react-icons/tb";
 
 export default function AboutLeft() {
